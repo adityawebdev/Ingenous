@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body>
+    <div class="site-main">
+      <button class="hamburger">
+        <img src="./icons/hamburger.jpg" />
+      </button>
+      <div class="mobile-nav">
+        <button class="cross"><img src="./icons/cross.png" /></button>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#whyme">Why Me ?</a></li>
+          <li><a href="#">My Blog</a></li>
+        </ul>
+      </div>
+      <header>
+        <div class="container">
+          <nav id="nav" class="flex items-center justify-between">
+            <div class="left flex items-center">
+              <div class="branding">
+                <img class="logo" src="./icons/default.png" />
+              </div>
+              <div class="links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#whyme">Why Me ?</a>
+                <a href="#">My Blog</a>
+              </div>
+            </div>
+            <div class="right">
+              <a href="#contact"
+                ><button class="btn btn-primary">Contact</button></a
+              >
+            </div>
+          </nav>
+          <div class="hero flex items-center justify-between">
+            <div class="left flex-1 flex justify-center">
+              <img src="img/man.png" />
+            </div>
+            <div class="right flex-1">
+              <h2>Aditya Sinha</h2>
+              <h1>I'm a Web <span>Developer</span></h1>
+              <p>
+                I am a fullstack Web Developer who is capable in developing eye
+                pleasing and innovative websites and web applications.
+                <span
+                  >If you're finding a problem solver who could become an
+                  integral part of your team , then you are landed on the right
+                  planet.
+                </span>
+              </p>
+              <h3 id="hire">Wanna Hire!</h3>
+              <div><button class="btn btn-secondary">DOWNLOAD CV</button></div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <section id="about" class="about">
+        <div class="container flex items-center">
+          <div class="flex-1">
+            <img class="about-img" src="./img/hero.jpg" />
+          </div>
+          <div class="flex-1">
+            <h1>About <span>Me</span></h1>
+            <h3>Hello ! I'm Aditya Sinha</h3>
+            <ul>
+              <li>17 years old , born on July 9 2003.</li>
+              <li>
+                Currently lives in Delhi , belongs to Meerut , (U.P.) , India.
+              </li>
+              <li>
+                Pursuing B.Sc. Hons. in Computer Science from Bhaskaracharya
+                College of Applied Sciences , Delhi University.
+              </li>
+              <li>Looking for a web developer role in Delhi NCR.</li>
+              <li>
+                Familier with other programming languages such as
+                <span> Python , PHP , C# , C++ and SQL(database). </span>
+              </li>
+              <li>
+                Dev Tools and other usefull skills known :
+                <span
+                  >Git , Github , Docker, Adobe Photoshop , Adobe Illustrator
+                  and Video Editing .</span
+                >
+              </li>
+              <li>My hobbies are Football , Music , Reading and Gaming.</li>
+            </ul>
+            <div class="social justify-between">
+              <a href="#"><img src="./icons/fb.png" alt="" /></a>
+              <a href="#"><img src="./icons/instagram.png" alt="" /></a>
+              <a href="#"><img src="./icons/twitter.png" alt="" /></a>
+              <a href="#"><img src="./icons/linkedin.png" alt="" /></a>
+              <a href="#"><img src="./icons/github.png" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="freelancer">
+        <h1>I also work as a freelancer.</h1>
+        <p>
+          We provide high quality and classy websites for your business
+          solutions.
+        </p>
+
+        <h3>Read Exciting Blogs!</h3>
+        <button class="btn btn-blog">My Blog</button>
+      </section>
+      <section id="skills" class="skills">
+        <div class="container">
+          <h1 class="section-heading"><span>My </span>Skills</h1>
+          <p>Spent significant amount of time with these technologies</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="icons/html.png" alt="" />
+            </div>
+            <div class="card">
+              <img src="icons/css.png" alt="" />
+            </div>
+            <div class="card">
+              <img src="icons/js.png" alt="" />
+            </div>
+            <div class="card">
+              <img src="icons/bootstrap.png" alt="" />
+            </div>
+            <div class="card">
+              <img src="icons/jquery.png" alt="" />
+            </div>
+            <div class="card">
+              <img src="icons/react.png" alt="" />
+            </div>
+            <div class="card">
+              <img src="icons/mdb.png" alt="" />
+            </div>
+            <div class="card">
+              <img src="icons/node.png" alt="" />
+            </div>
+            <div class="card">
+              <img src="icons/express.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="projects">
+        <div class="container">
+            <h1><span>My</span> Projects</h1>
+            <P id="pp">Feel free to explore them by clicking on slides</P>
+            <!-- Slider main container -->
+
+      <!-- <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">Slide 1 <img src="./img/restraunt.jpg" alt=""></div>
+                    <div class="swiper-slide">Slide 2 <img src="./img/lady.png" alt=""></div>
+                    <div class="swiper-slide">Slide 3 <img src="./img/man-2.png" alt=""></div>
+                    <div class="swiper-slide">Slide 4 <img src="./img/restraunt.jpg" alt=""></div>
+                    <div class="swiper-slide">Slide 5 <img src="./img/restraunt.jpg" alt=""></div>
+                    <div class="swiper-slide">Slide 6 <img src="./img/restraunt.jpg" alt=""></div>
+
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+      <section id="projects" class="work">
+        <div class="container">
+          <h1 class="section-heading"><span>My </span>Work</h1>
+          <p>Projects solely developed by me</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Development</a>
+              </div>
+              <img src="./img/ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Development</a>
+              </div>
+              <img src="./img/ph-2.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Development</a>
+              </div>
+              <img src="./img/ph-3.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Development</a>
+              </div>
+              <img src="./img/ph-1.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Development</a>
+              </div>
+              <img src="./img/ph-2.png" alt="" />
+            </div>
+            <div class="card">
+              <div class="overlay">
+                <span>Category</span>
+                <a href="#">Web Development</a>
+              </div>
+              <img src="./img/ph-3.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="whyme" class="blog">
+        <div class="container">
+          <h1 class="section-heading"><span>Why </span>Me <span>?</span></h1>
+          <p>
+            As the usage of internet is increasing rapidly and everything is
+            moving from offline to online , this also popularize web development
+            proportionaly . In the market full of web developers why will you
+            choose me ? Here are some of my strengths which turn the answer to a
+            big <span>Yes</span>
+          </p>
+
+          <div class="card-wrapper">
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./icons/skills.png" />
+              </div>
+              <div class="card-content">
+                <h1>Reliability On Core Skills</h1>
+
+                <p>
+                  As there are lot of HTML , CSS and JS third-party libraries
+                  available on internet and they are too good but I prefer to
+                  work more with pure HTML , CSS and Vanilla JS which allows me
+                  the freedom to create what comes in my mind and also increase
+                  my creativity and the same time polish my skills everyday. At
+                  the same time we cannot ingore the significance of these
+                  libraries/frameworks , so a balance between these two works
+                  good for me.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img height="198rem" src="./icons/solving.jfif" />
+              </div>
+              <div class="card-content">
+                <h1>Problem Solving Mindset</h1>
+
+                <p>
+                  As web development is one of the skills I enjoy practising but
+                  problem solving is something which I love , finding errors in
+                  the code and debugging of the code always amazes me since I
+                  started programming . So if you are in search of a guy who can
+                  develop websites and web apps and also find bugs in the code
+                  and solve problems which makes the project more efficient then
+                  I can become an weapon of your arsenal.
+                </p>
+              </div>
+            </div>
+            <div class="card">
+              <div class="img-wrapper">
+                <img src="./icons/creativity.jfif" />
+              </div>
+              <div class="card-content">
+                <h1>Wouldn't Be Afraid To Creativity</h1>
+
+                <p>
+                  Creativity is something which everyone wants to acheive and
+                  being also sounds cool right? but creativity comes with some
+                  of it's own drawbacks. Creativity requires time which can
+                  delay the completion of project , one can easily lose his
+                  focus in process of being creative and would deliver something
+                  that client never asked. I understand creativity and being on
+                  track both are equally important that's I have been never
+                  afraid of being creative.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <div class="container">
+          <h1 class="section-heading">Contact<span> Me</span></h1>
+          <p>For work and any kind of queries contact me</p>
+          <div class="card-wrapper">
+            <div class="card">
+              <img src="./icons/phone.png" alt="" />
+              <h1>Call Me On</h1>
+              <h6>8279520790</h6>
+            </div>
+            <div class="card">
+              <img src="./icons/mail.png" alt="" />
+              <h1>Email Me At</h1>
+              <h6>adityasinha3201@gmail.com</h6>
+            </div>
+            <div class="card">
+              <img src="./icons/location.png" alt="" />
+              <h1>Visit Me</h1>
+              <h6>BCAS , Phase 1 , Sector 2 , Dwarka , New Delhi</h6>
+            </div>
+          </div>
+          <form action="">
+            <div class="input-wrap">
+              <input id="name" type="text" placeholder="Your Name *" required />
+              <input type="email" placeholder="Your Email *" required />
+            </div>
+            <div class="input-wrap-2">
+              <input type="text" placeholder="Topic*" required />
+            </div>
+            <div class="input-wrap3">
+              <textarea
+                name=""
+                id=""
+                cols="67"
+                rows="7"
+                placeholder="Project Description*"
+                required
+              ></textarea>
+            </div>
+            <div>
+              <button class="btn btn-primary" id="send" type="submit">
+                Send
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <img class="logo" src="./icons/default.png" alt="" />
+
+        <div class="copyright">
+          Copyright 2020 @ Aditya Sinha. All Rights Reserved
+        </div>
+      </footer>
+    </div>
+    <script type="text/javascript" src="./app.js" defer></script>
+  </body>
+</html>
